@@ -1,0 +1,8 @@
+<table style="border-collapse: collapse; width: 100%; height: 54px; margin-left: auto; margin-right: auto;" border="0" cellpadding="0">
+  <tbody>
+    <tr style="height: 100%;">
+      <td style="width: 45%; height: 100%; text-align: center;"><a title="website" href="https://tmls.info/L2E3CW" target="_blank" rel="noopener"><img src="https://tm-legalservices.co.uk/assets/emails/visitwebsite-01.png" alt="Set Up DD" width="100%" height="auto" border="0" /></a></td>
+      <td style="width: 45%; height: 100%; text-align: center;"><a title="inbound phone" href="tel:{{ customer.latest.CUSTOM_CustomerLetterFields.payload.InboundPhone1 }}" target="_blank" rel="noopener"><img src="https://tm-legalservices.co.uk/assets/emails/callusnew-01.png" alt="Make Payment" width="100%" height="auto" border="0" /></a></td>
+    </tr>
+  </tbody>
+</table>
