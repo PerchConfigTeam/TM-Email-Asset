@@ -1,0 +1,37 @@
+<div style="border-collapse: collapse; width: 100%;">
+  <table style="border-collapse: collapse; width: 100%;" border="0" cellpadding="0">
+    <tbody>
+      <tr style="height: 100%;">
+        <td style="width: 70%; padding-left: 30px; height: auto;">
+          <p style="font-size: 15px; text-align: left;"><span style="font-family: calibri, helvetica, sans-serif; font-size: 30px;"><span style="color: #6f2d83;"><strong><span style="line-height: 150%;">Important information about your </span></strong></span><span style="color: #1e1f20;"><strong><span style="line-height: 150%;">{{! account.latest.FCCORE_creditor.payload.creditor}}{{#each account.latest}}{{#if @last}}{{FCCORE_creditor.payload.creditor}}{{/if}}{{/each}} </span></strong></span><span style="color: #6f2d83;"><strong>account</strong></span></span></p>
+        </td>
+        <td style="width: 30%; height: auto;">
+          <p><span style="color: #0096dc; font-family: calibri, helvetica, sans-serif; font-size: 12pt;"><strong><a href="https://tmls.info/TMACC" target="_blank" rel="noopener"><img style="float: left;" src="https://tm-legalservices.co.uk/assets/emails/viewyouraccount.png" width="150" height="73" /></a><br /></strong></span></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="border-collapse: collapse; width: 100%;">
+    <p style="font-size: 15px;">&nbsp;</p>
+    <br />
+    <table style="border-collapse: collapse; width: 100%; height: 40%;" border="0">
+      <thead>
+        <tr style="height: Auto;">
+          <td style="width: 2.19443%; background-color: #ffffff; padding: 11px; border-radius: 12px;">&nbsp;</td>
+          <td style="width: 55.8335%; background-color: #6f2d83; padding: 15px; border-radius: 12px;">
+            <p>&nbsp;</p>
+            <p style="box-sizing: inherit; font-size: 14px; margin-bottom: 1.14286rem; margin-top: 0px; font-family: Roboto, sans-serif; line-height: 1.5; color: #ffffff;"><span style="box-sizing: inherit; font-family: calibri, helvetica, sans-serif; font-size: 12pt;"><span style="box-sizing: inherit; font-weight: bold;">TM Customer Reference: </span>{{customer.latest.FCCORE_reference.payload.reference}}</span></p>
+            <p style="box-sizing: inherit; font-size: 14px; margin-bottom: 1.14286rem; margin-top: 0px; font-family: Roboto, sans-serif; line-height: 1.5; color: #ffffff;"><strong><span style="box-sizing: inherit; font-family: calibri, helvetica, sans-serif; font-size: 12pt;">Online Pin: </span></strong><span style="box-sizing: inherit; font-family: calibri, helvetica, sans-serif; font-size: 12pt;">{{customer.latest.FCCORE_pin.payload.pin}}</span></p>
+            <p style="color: #ffffff; box-sizing: inherit; font-size: 14px; margin-bottom: 1.14286rem; margin-top: 0px; padding: 0px; font-family: Roboto, sans-serif; line-height: 1.5;"><span style="box-sizing: inherit; font-family: calibri, helvetica, sans-serif; font-size: 12pt;"><span style="box-sizing: inherit; font-weight: bold;">Balance Outstanding: </span>{{currency customer.latest.CALCULATED_balance.payload.balance}}</span></p>
+            <p style="color: #ffffff; box-sizing: inherit; font-size: 14px; margin-bottom: 1.14286rem; margin-top: 0px; padding: 0px; font-family: Roboto, sans-serif; line-height: 1.5;"><span style="font-family: calibri, helvetica, sans-serif; font-size: 12pt;"><span style="box-sizing: inherit;"><span style="box-sizing: inherit; font-weight: bold;">Original Creditor:&nbsp;</span></span>{{! account.latest.FCCORE_creditor.payload.creditor}}{{#each account.latest}}{{#if @last}}{{FCCORE_creditor.payload.creditor}}{{/if}}{{/each}}</span></p>
+            <p style="color: #ffffff; box-sizing: inherit; font-size: 14px; margin-bottom: 1.14286rem; margin-top: 0px; padding: 0px; font-family: Roboto, sans-serif; line-height: 1.5;"><span style="box-sizing: inherit; font-family: calibri, helvetica, sans-serif; font-size: 12pt;"><span style="box-sizing: inherit; font-weight: bold;">Original Creditor Reference:</span>&nbsp;<span style="color: #ffffff; text-align: -webkit-right;">{{!account.latest.FCCORE_reference1.payload.reference1}} {{#each account.latest}} {{this.FCCORE_reference1.payload.reference1}} {{/each}}</span></span></p>
+            <p style="color: #ffffff; box-sizing: inherit; font-size: 14px; margin-bottom: 1.14286rem; margin-top: 0px; padding: 0px; font-family: Roboto, sans-serif; line-height: 1.5;"><strong><span style="box-sizing: inherit; font-family: calibri, helvetica, sans-serif; font-size: 12pt;"><span style="color: #ffffff; text-align: -webkit-right;">Claim Number:&nbsp;</span></span></strong><span style="font-family: calibri, helvetica, sans-serif;"><span style="font-size: 12pt;">{{customer.latest.MCOL_judgment.payload.claimNumber}}</span></span></p>
+          </td>
+          <td style="width: 30.12%; padding: 15px; border-radius: 12px; text-align: center; vertical-align: bottom;">
+            <p><a style="vertical-align: baseline;" title="https://tmls.info/TPL1" href="https://tmls.info/TPL1" target="_blank" rel="noopener"><img src="https://tm-legalservices.co.uk/assets/emails/trustpilotNewTm.png" width="122" height="52" /></a></p>
+          </td>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>
