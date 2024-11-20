@@ -1,16 +1,12 @@
-<div style="padding-left: 30px; padding-right: 30px;">
-  <table style="padding: 0 auto; border-collapse: collapse; width: 100%; height: auto;" cellpadding="1%">
+<div style="padding-left: 4%; padding-right: 4%;">
+  <table style="border-collapse: collapse; width: 100%;" border="0">
     <tbody>
       <tr>
-        <td><span style="font-size: 11pt; font-family: calibri, helvetica, sans-serif;"><a title="Citizens advice" href="https://tmls.info/L1E8PCCA" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://tm-legalservices.co.uk/assets/emails/citizensadvice.png" alt="citizens-advice" width="100%" height="auto" border="0" /></a></span></td>
-        <td>
-          <p style="text-align: center;"><span style="font-size: 11pt; font-family: calibri, helvetica, sans-serif;"><strong><span style="color: #ffffff;">&nbsp;</span></strong></span></p>
-        </td>
-        <td><span style="font-size: 11pt; font-family: calibri, helvetica, sans-serif;"><a title="step change" href="https://tmls.info/L1E8PCSC" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://tm-legalservices.co.uk/assets/emails/stepchange.png" alt="step-change" width="100%" height="auto" border="0" /></a></span></td>
-        <td>
-          <p style="text-align: center;"><span style="font-size: 11pt; font-family: calibri, helvetica, sans-serif;"><strong><span style="color: #ffffff;">&nbsp;</span></strong></span></p>
-        </td>
-        <td><span style="font-size: 11pt; font-family: calibri, helvetica, sans-serif;"><a title="moneyhelper" href="https://tmls.info/L1E8PCMH" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://tm-legalservices.co.uk/assets/emails/moneyhelper.png" alt="money-helper" width="100%" height="auto" border="0" /></a></span></td>
+        <td style="width: 33.333%;"><a title="citizens advice" href="https://tmls.info/P1E10PLCA" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://tm-legalservices.co.uk/assets/emails/citizensadviceLogoNew.png" alt="citizens-advice" width="100%" height="auto" border="0" /></a></td>
+        <td style="width: auto;">&nbsp;</td>
+        <td style="width: 33.333%;"><a title="step change" href="https://tmls.info/P1E10PLSC" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://tm-legalservices.co.uk/assets/emails/stepChangeLogoNew.png" alt="step-change" width="100%" height="auto" border="0" /></a></td>
+        <td style="width: auto;">&nbsp;</td>
+        <td style="width: 33.333%;"><a title="moneyhelper" href="https://tmls.info/P1E10PLMH" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://tm-legalservices.co.uk/assets/emails/moneyhelperfred.png" alt="money-helper" width="100%" height="auto" border="0" /></a></td>
       </tr>
     </tbody>
   </table>
