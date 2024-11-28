@@ -1,0 +1,30 @@
+<table style="border-collapse: collapse; width: 100%; height: auto;" border="0" cellspacing="1" cellpadding="1">
+  <tbody>
+    <tr style="height: auto;">
+      <td style="width: auto; height: auto;">
+        <p><span style="font-size: 12px;"><span style="font-family: Arial,Helvetica,sans-serif;"><strong><span style="color: purple;">&nbsp;</span></strong></span></span></p>
+      </td>
+      <td style="width: auto; height: auto;">
+        <p><span style="font-size: 12px; color: #6f2d83;"><span style="font-family: Arial,Helvetica,sans-serif;"><strong>How to Contact Us?</strong></span></span></p>
+        <p><span style="font-size: 9pt; font-family: Arial, sans-serif;">Tel<strong>:&nbsp;</strong>{{customer.latest.CUSTOM_CustomerLetterFields.payload.InboundPhone1}}&nbsp;(calls are charged at local rate but may vary from a mobile)</span></p>
+        <p><span style="font-size: 9pt; font-family: Arial, sans-serif;">Email<strong>:</strong>&nbsp;{{customer.latest.FCCORE_reference.payload.reference}}@tm-legalservices.uk</span></p>
+        <p><span style="font-size: 9pt; font-family: Arial, sans-serif;">Web<strong>:</strong>&nbsp;{{customer.latest.CUSTOM_CustomerLetterFields.payload.WebLink}}</span></p>
+        <p><span style="font-size: 9pt; font-family: Arial, sans-serif;">Address<strong>:</strong>&nbsp;{{customer.latest.CUSTOM_CustomerLetterFields.payload.InboundAddressLine1}}, {{customer.latest.CUSTOM_CustomerLetterFields.payload.InboundAddressLine2}}, {{customer.latest.CUSTOM_CustomerLetterFields.payload.InboundAddressLine3}}, {{customer.latest.CUSTOM_CustomerLetterFields.payload.InboundAddressLine4}}</span></p>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 9pt; font-family: Arial, sans-serif;"><br />Our opening hours are {{ customer.latest.CUSTOM_CustomerLetterFields.payload.OpeningHours }}</span></p>
+        <p><span style="font-size: 12px; color: #6f2d83;"><span style="font-family: Arial,Helvetica,sans-serif;"><strong>How to Pay?</strong></span></span></p>
+        <p><span style="font-size: 12px;"><span style="font-family: Arial,Helvetica,sans-serif;">There are multiple ways to pay - simply choose the most convenient:</span></span></p>
+        <ul>
+          <li><span style="font-size: 12px;"><span style="font-family: Arial,Helvetica,sans-serif;"><strong><span style="background-color: white;">Continuous Payment Authority (CPA)</span></strong><span style="background-color: white;">&nbsp;- A CPA allows you to make regular payments automatically via your debit card. This is our most popular and hassle-free payment method. Simply log into our online portal, go to 'Setup Payment Plan' and choose 'Card Payment' arrangement.</span></span></span></li>
+          <li><span style="font-size: 12px;"><span style="font-family: Arial,Helvetica,sans-serif;"><strong>Online&nbsp;</strong>- you can make a debit card payment securely via our online portal (just click 'Pay Now' at the top of the email)</span></span></li>
+          <li><strong><span style="font-size: 9.0pt; font-family: 'Arial',sans-serif; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-GB;">Telephone</span></strong><span style="font-size: 9.0pt; font-family: 'Arial',sans-serif; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-GB;">&nbsp;- you can make a debit card payment 24 hours a day, 7 days a week using our automated payment line (call&nbsp;</span><span style="font-size: 9.0pt; font-family: 'Arial',sans-serif;">{{customer.latest.CUSTOM_CustomerLetterFields.payload.InboundPhone1}}</span><span style="font-size: 9.0pt; font-family: 'Arial',sans-serif; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-GB;">&nbsp;and press option 1)</span></li>
+          <li><span style="font-size: 12px;"><span style="font-family: Arial,Helvetica,sans-serif;"><strong>Bank payment</strong><strong>&nbsp;</strong>- make payment by bank transfer using your banking application or in a branch (Account Number: 48847771 &amp; Sort Code: 60-00-01)</span></span></li>
+        </ul>
+        <span style="font-size: 12px;"><span style="font-family: Arial,Helvetica,sans-serif;"><u>Please include your reference&nbsp;{{customer.latest.FCCORE_reference.payload.reference}}&nbsp;on all payments and/or correspondence</u></span></span>
+      </td>
+      <td style="width: auto;">
+        <p><span style="font-size: 12px;"><span style="font-family: Arial,Helvetica,sans-serif;"><strong><span style="color: purple;">&nbsp;</span></strong></span></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
