@@ -30,12 +30,9 @@
                      <p style="color: #ffffff; box-sizing: inherit; font-size: 14px; margin-bottom: 1.14286rem; margin-top: 0px; padding: 0px; font-family: Roboto, sans-serif; line-height: 1.5;"><span style="box-sizing: inherit; font-family: calibri, helvetica, sans-serif; font-size: 11pt;"><span style="box-sizing: inherit; font-weight: bold;">Original Creditor Reference:</span>&nbsp;<span style="color: #ffffff; text-align: -webkit-right;">{{!account.latest.FCCORE_reference1.payload.reference1}} {{#each account.latest}} {{this.FCCORE_reference1.payload.reference1}} {{/each}}</span></span></p>
                   </td>
                   <td style="padding: 15px;">&nbsp;</td>
-                  <td style="width: 40%; padding-top: 0px; padding-right: 5%; text-align: right; vertical-align: bottom;">
-                     <p style="text-align: right;"><span style="font-family: calibri, helvetica, sans-serif; font-size: 11pt;">&nbsp;</span></p>
-                     <p><span style="font-family: calibri, helvetica, sans-serif; font-size: 11pt;"><a style="text-decoration: none;" href="https://www.trustpilot.com/review/tm-legalservices.co.uk"><img style="max-height: 40px; float: right;" src="https://tm-legalservices.co.uk/assets/emails/TrustPilotNew.png" alt="Trustpilot Stars" width="135" height="41" border="0" /></a>&nbsp;</span></p>
-                     <p style="text-align: right;"><span style="font-family: calibri, helvetica, sans-serif; font-size: 11pt;">&nbsp;</span></p>
-                     <p>&nbsp;</p>
-                  </td>
+                   <td style="width: 30.12%; padding: 15px; border-radius: 12px; text-align: center; vertical-align: bottom;">
+            <p><a style="vertical-align: baseline;" title="https://tmls.info/TPL1" href="https://tmls.info/TPL1" target="_blank" rel="noopener"><img src="https://tm-legalservices.co.uk/assets/emails/trustpilotNewTm.png" width="122" height="52" /></a></p>
+          </td>
                </tr>
             </thead>
          </table>
